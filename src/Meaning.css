@@ -1,0 +1,10 @@
+.Meaning h3 {
+  color: #be6f72;
+  text-transform: capitalize;
+}
+.Meaning {
+  text-align: left;
+}
+.Meaning p::first-letter {
+  text-transform: capitalize;
+}
