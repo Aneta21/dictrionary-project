@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.App .App-header {
+  margin: 20px 0;
+}
+.App img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
