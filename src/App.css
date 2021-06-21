@@ -9,4 +9,9 @@
   display: block;
   margin: 0 auto;
   height: 150px;
+  padding-bottom: 10px;
+}
+.App h1 {
+  color: #34315d;
+  font-weight: 700;
 }
