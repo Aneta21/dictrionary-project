@@ -18,7 +18,7 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            Aneta{" "}
+            Aneta Stepankova{" "}
           </a>{" "}
           and open-sourced on{" "}
           <a

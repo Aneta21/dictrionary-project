@@ -1,8 +1,16 @@
 .Synonyms p {
-  display: inline-flex;
+  display: inline-block;
   padding-right: 15px;
   margin-left: 20px;
   font-family: monospace;
+  font-size: 14px;
+  color: rgba(94, 89, 89);
+}
+.Synonyms {
+  font-family: monospace;
+  display: inline-block;
+  padding-right: 15px;
+  margin-left: 20px;
   font-size: 14px;
   color: rgba(94, 89, 89);
 }
