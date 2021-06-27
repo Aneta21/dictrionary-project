@@ -10,7 +10,7 @@ export default function App() {
           <img src={logo} className="img-fluid" alt="logo" />
         </header>
         <h1>What do you want to learn today?</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword="dictionary" />
         <footer className="footer">Coded by Aneta</footer>
       </div>
     </div>
