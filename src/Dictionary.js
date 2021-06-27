@@ -9,7 +9,6 @@ export default function Dictionary() {
 
   // receives the data from api and stores it to the state
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
   // handles search thru api

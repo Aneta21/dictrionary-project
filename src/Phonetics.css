@@ -1,0 +1,9 @@
+.Phonetics {
+  text-align: left;
+}
+.Phonetics a {
+  display: block;
+  text-align: left;
+  font-size: 30px;
+  text-decoration: none;
+}
