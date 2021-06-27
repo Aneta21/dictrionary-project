@@ -2,8 +2,17 @@
   text-align: left;
 }
 .Phonetics a {
-  display: block;
-  text-align: left;
   font-size: 30px;
   text-decoration: none;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 8px;
+}
+.Phonetics p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #343a40;
+}
+.Phonetics .pronunciation {
+  opacity: 0.8;
 }

@@ -9,9 +9,26 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="img-fluid" alt="logo" />
         </header>
-        <h1>What do you want to learn today?</h1>
         <Dictionary defaultKeyword="dictionary" />
-        <footer className="footer">Coded by Aneta</footer>
+        <footer>
+          Coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/aneta-stepankova"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Aneta{" "}
+          </a>{" "}
+          and open-sourced on{" "}
+          <a
+            href="https://github.com/Aneta21/dictrionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="fab fa-github"></span>
+          </a>
+        </footer>
       </div>
     </div>
   );

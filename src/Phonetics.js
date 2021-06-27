@@ -6,9 +6,9 @@ export default function Phonetics(props) {
     <span className="Phonetics">
       <p>
         <a href={props.phonetics.audio} target="_blank" rel="noreferrer">
-          🎵
-        </a>
-        {props.phonetics.text}
+          🔊
+        </a>{" "}
+        {""} <span className="pronunciation">{props.phonetics.text}</span>
       </p>
     </span>
   );

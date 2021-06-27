@@ -1,17 +1,36 @@
 .App {
   text-align: center;
-}
-.App .App-header {
-  margin: 20px 0;
+  background: #f9f9f9;
 }
 .App img {
   max-width: 300px;
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
   height: 150px;
   padding-bottom: 10px;
 }
 .App h1 {
   color: #34315d;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 1.5;
+}
+
+.App footer {
+  color: rgb(54, 52, 52);
+  font-size: 15px;
+  font-weight: 500;
+  font-family: monospace;
+  margin-bottom: 5px;
+}
+.App a {
+  color: rgb(54, 52, 52);
+  text-decoration: none;
+}
+.App a:hover {
+  color: #6ea14b;
+}
+.App a:visited {
+  color: #6ea14b;
 }

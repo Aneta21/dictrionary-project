@@ -32,9 +32,13 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <form className="form-group " onSubmit={handleSubmit}>
-          <input type="search" onChange={handleChange} />
-        </form>
+        <section>
+          <h1>What do you want to learn about?</h1>
+          <form className="form-group " onSubmit={handleSubmit}>
+            <input type="search" onChange={handleChange} />
+          </form>
+          <div className="hint"> e.g., forest, book, wine, coffee</div>
+        </section>
         <Results results={results} />
       </div>
     );

@@ -1,0 +1,25 @@
+.Dictionary form {
+  padding: 7px 0;
+}
+.Dictionary input {
+  padding: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #6ea14b;
+  color: #34315d;
+  font-weight: 600;
+  text-align: center;
+  width: 40%;
+}
+.Dictionary section {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgba(94, 89, 89, 0.3);
+}
+.Dictionary .hint {
+  font-size: 14px;
+  color: rgba(94, 89, 89);
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,8 @@
+.Synonyms p {
+  display: inline-flex;
+  padding-right: 15px;
+  margin-left: 20px;
+  font-family: monospace;
+  font-size: 14px;
+  color: rgba(94, 89, 89);
+}
