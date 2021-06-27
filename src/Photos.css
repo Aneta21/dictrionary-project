@@ -1,0 +1,11 @@
+.Photos img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.Photos h3 {
+  color: #be6f72;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+}

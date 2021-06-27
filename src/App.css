@@ -1,8 +1,10 @@
 .App {
   text-align: center;
   background: #f9f9f9;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.App img {
+.App .App-logo {
   max-width: 300px;
   display: block;
   margin: 0 auto;
